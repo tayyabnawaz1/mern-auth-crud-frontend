@@ -1,0 +1,96 @@
+.home {
+  width: 100%;
+  max-width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+  /* font-family: Arial, sans-serif; */
+}
+
+.home h1 {
+  margin-bottom: 25px;
+  font-size: 38px;
+  color: #222;
+}
+
+/* Table */
+.home table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.home th {
+  background-color: #800080;
+  color: white;
+  padding: 14px 10px;
+  font-size: 18px;
+}
+
+.home td {
+  padding: 14px 10px;
+  border: 1px solid #ddd;
+  font-size: 17px;
+}
+
+/* Action column */
+.home td:last-child {
+  white-space: nowrap;
+}
+
+/* Delete and Update buttons */
+.home td button {
+  width: 80px;
+  padding: 8px 12px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+/* Logout */
+.home > button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #800080;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.home > button:hover {
+  background-color: #660066;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .home {
+    width: 95%;
+    margin-top: 30px;
+  }
+
+  .home h1 {
+    font-size: 28px;
+  }
+
+  .home table {
+    font-size: 14px;
+  }
+
+  .home th,
+  .home td {
+    padding: 8px 5px;
+    font-size: 14px;
+  }
+
+  .home td button {
+    width: 65px;
+    padding: 7px 5px;
+    font-size: 13px;
+  }
+}
